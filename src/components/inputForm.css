@@ -1,0 +1,71 @@
+.inputForm{
+    
+    padding-top: 25px;
+    height: 40%;
+    width: 28%;
+    border: .5px solid #bdb9b9;
+    border-radius: 10px;
+    align-items: right;
+    flex-direction:  column;
+    position: relative;
+    padding-left: 70px;
+}
+
+.inputForm label{
+    padding-right: 10px;
+
+}
+.inputForm span{
+    width: 100px;
+}
+
+.inputForm select{
+    width: 70%;
+    height: 30px;
+}
+
+.close{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: tomato;
+    transition: .5s;
+}
+
+.close:hover{
+    transform: rotate(90deg);
+    color: red;
+}
+
+
+.inputForm button{
+    width: 100px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    background-color: #337AB7;
+    color: white;
+    font-weight: 700;
+}
+
+.inputForm input{
+    width: 70%;
+    height: 30px;   
+}
+
+.inputForm h2{
+    /* margin-bottom: 20px;
+    margin-left: 80px; */
+    margin-bottom: 1em;
+    margin-left: .8em;
+}
+
+@media screen and (max-width:767px) {
+    .inputForm{
+       width: 80%;
+    }
+}

@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 0px 15px;
+    border-bottom: .5px solid #bdb9b9;
+    
+}
+
+.item input{
+    margin-right: 30px;
+}
+
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.del{
+    color: #f44d4d;
+}
+
+.edt{
+    color: #b5adad;
+}
+.Priority{
+    padding: 1px 3px;
+    /* background-color: #f44d4d; */
+    border-radius: 3px;
+    font-size: 14px;
+}

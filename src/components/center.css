@@ -1,0 +1,62 @@
+.parentOfCenter{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.center{
+    width: 60%;
+    height: 60%;
+   
+  }
+  
+  .list{
+    padding-top: 5px;
+    width: 100%;
+    height: 90%;
+    border: .5px solid #bdb9b9;
+    border-radius: 10px;
+    overflow-y: scroll;
+    
+  }
+  
+::-webkit-scrollbar{
+  width: 20px;
+}
+::-webkit-scrollbar-track{
+  
+}
+::-webkit-scrollbar-thumb{
+  border-radius: 10px;
+  background-color: rgb(212, 212, 212);
+}
+
+::-webkit-scrollbar-thumb:hover{
+  border-radius: 10px;
+  background-color: rgb(176, 185, 185);
+}
+  
+  .btnAddTask{
+    width: 100%;
+  }
+  
+  .btnAddTask button{
+    margin-top: 10px;
+    float: right;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    background-color: var(--blue);
+  }
+
+  @media screen and (max-width:767px) {
+    .center{
+      width: 90%;
+    }
+  }

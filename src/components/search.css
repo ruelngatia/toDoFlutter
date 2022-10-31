@@ -1,0 +1,38 @@
+:root{
+    --blue: #337AB7
+}
+
+.search{
+    /* margin-bottom: 20px; */
+    height: 10%;
+    display: flex;
+
+}
+
+.search input{
+    /* margin-left: 60px; */
+    margin-left: 2em;
+    width: 70%;
+    height: 35px;
+    padding-left: 5px;
+    border-radius: 5px;
+    border: .5px solid #bdb9b9;
+}
+.search button{
+
+    margin-left: 30px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    height: 35px;
+    width: 80px;
+    font-size: 18px;
+    font-weight: 600px;
+    background-color: var(--blue);
+}
+
+@media screen and (max-width:767px) {
+    .search input{
+        width: 70%;
+    }
+}
